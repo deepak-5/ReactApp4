@@ -1,0 +1,93 @@
+/* Importing bootstrap from CDN */
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+/* Using blue color as a theme */
+:root {
+  --theme-color: #007bff;
+}
+
+/* Styling the nav element */
+nav {
+  background-color: var(--theme-color);
+  padding: 10px;
+}
+
+/* Styling the ul element inside the nav element */
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling the li element inside the ul element */
+nav ul li {
+  margin-right: 20px;
+}
+
+/* Styling the a element inside the li element */
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Styling the h1 element */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Styling the p element */
+p {
+  text-align: center;
+}
+
+/* Styling the button element */
+button {
+  display: block;
+  margin: 10px auto;
+}
+
+/* Styling the form element */
+form {
+  width: 50%;
+  margin: 20px auto;
+}
+
+/* Styling the input element inside the form element */
+form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+.custom-card {
+  display: block;
+  padding: 15px;
+  background-color: #ced3d8;
+  border: 10px solid #1d4c7b;
+  border-radius: 4px;
+  margin-bottom: 18px;
+  text-align: center;
+  color: #212529;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.custom-card:hover {
+  background-color: #e9ecef;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.custom-card span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.custom-card:active {
+  background-color: #dee2e6;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  transform: translateY(0);
+}
